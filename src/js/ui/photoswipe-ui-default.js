@@ -486,6 +486,27 @@ var PhotoSwipeUI_Default =
 			onInit: function(el) {  
 				_loadingIndicator = el;
 			} 
+		},
+		{
+			name: 'button--remove',
+			option: 'removeEl',
+			onTap: function() {
+				// handle your button click event here
+			}
+		},
+		{
+			name: 'button--crop',
+			option: 'cropEl',
+			onTap: function() {
+				// handle your button click event here
+			}
+		},
+		{
+			name: 'button--edit',
+			option: 'editEl',
+			onTap: function() {
+				// handle your button click event here
+			}
 		}
 
 	];
